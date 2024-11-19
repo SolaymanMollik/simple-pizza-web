@@ -1,0 +1,33 @@
+.second-wood-sec {
+  width: 100vw;
+  background-image: linear-gradient(#00000079, #00000079),
+    url(../img/bg-wood.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.second-wood-sec > div {
+  width: 60vw;
+  max-width: 900px;
+  color: var(--primary-color) !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  margin: 0 auto;
+}
+#learn-more-btn {
+  max-width: 18rem;
+  padding: 0.8rem 1rem;
+  border-radius: 50em;
+  background-color: rgb(210, 5, 5);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+#learn-more-btn:hover {
+  background-color: black;
+  transition: 0.7s;
+}

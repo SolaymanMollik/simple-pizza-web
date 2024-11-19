@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: 1s;
+  margin: 0 auto !important;
+  position: relative;
+  background-color: var(--secondary-color);
+  /* height: 500vh; */
+}
+::selection {
+  background-color: red !important;
+  color: #fff;
+}
+.dark-them {
+  --primary-color: #fff;
+  --secondary-color: #000;
+}
+video {
+  width: 100%; /* Makes the video responsive */
+  height: 100%; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures video covers its container */
+}
+body {
+  overscroll-behavior: none;
+}
+
+/* R vai ami video er width dile hight kaj kore na 
+abar hight dile width kaj kore na ;
+as aspect-ratio dileo hoi na er kono solution ace 
+jate video flexible kore jay ? */

@@ -1,0 +1,174 @@
+.wood-fri-sec {
+  width: 100vw;
+  background-image: url(../img/wood-background.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wood-fri-sec-first-div {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+.wood-fri-sec-first-div > div {
+  width: 24%;
+  font-family: sans-serif;
+}
+.s2-item-div {
+  display: flex;
+  gap: 1rem;
+  font-weight: bold;
+}
+.s2-heading-div {
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+}
+.s2-heading {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+#view-the-full-menu-btn {
+  max-width: 17rem;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  background-color: red;
+  padding: 0.7rem 1.5rem;
+  border-radius: 50em;
+  margin: 3rem auto;
+}
+#view-the-full-menu-btn:hover {
+  background-color: var(--secondary-color);
+  transition: 0.7s;
+}
+/* ================================ carusel start here ============================ */
+#carusel {
+  width: 100vw;
+  max-width: 2300px;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  overflow: visible;
+}
+.swiper-1 {
+  width: 85% !important;
+}
+
+.swiper {
+  width: 85%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+.swiper-slide:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: red;
+}
+/*  ============ all initial top of this ============ */
+.swiper-card > img {
+  width: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 2rem;
+  font-weight: bold;
+}
+/* ================ this section last div start here ================ */
+
+.s2-last-div {
+  width: 80vw;
+  max-width: 1800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 7rem 0;
+}
+.s2-last-item-1 {
+  width: 30vw;
+  aspect-ratio: 1/1;
+  border: 5px solid red;
+  display: grid;
+  place-items: center;
+  border-radius: 50em;
+}
+.s2-last-item-2 {
+  width: 55vw;
+}
+#s2-last-img {
+  width: 100%;
+  border-radius: 50em;
+  border: 5px solid #fff;
+}
+#order-now-btn2 {
+  width: 15rem;
+  padding: 0.5rem 1rem;
+  display: grid;
+  place-items: center;
+  background-color: red;
+  border-radius: 50em;
+  color: var(--primary-color);
+  margin: 2rem 0;
+}
+#order-now-btn2:hover {
+  background-color: var(--secondary-color);
+  transition: 0.7s;
+}
+
+/* ===================== media =================== */
+@media (max-width: 800px) {
+  .s2-last-item-1,
+  .s2-last-item-2 {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .s2-last-item-1 {
+    width: 50vw !important;
+  }
+  .s2-last-div {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 850px) {
+  .wood-fri-sec-first-div > div {
+    width: 47% !important;
+  }
+}
+@media (max-width: 650px) {
+  .wood-fri-sec-first-div > div {
+    width: 100% !important;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .s2-item-div {
+    justify-content: center;
+  }
+  .s2-heading-div {
+    width: 95%;
+  }
+}
+/* ===================== media =================== */

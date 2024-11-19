@@ -1,0 +1,74 @@
+.bg-wood-sec {
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.379), rgba(0, 0, 0, 0.379)),
+    url(../img/bg-wood.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-wood-sec > div {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 0;
+}
+.bg-wood-sec > div > div {
+  width: 45%;
+}
+#find-a-location {
+  width: 12rem;
+  height: 3rem;
+  background-color: rgb(214, 34, 34);
+  border-radius: 50em;
+  display: grid;
+  place-items: center;
+  margin: auto !important;
+  color: var(--primary-color);
+}
+#find-a-location:hover {
+  background-color: black;
+  transition: 0.7s;
+}
+/* =================== order form ================== */
+.order-form > input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 1px solid black;
+}
+.order-form > input:focus {
+  border: 1.5px solid black;
+}
+.order-form > input:last-child {
+  margin-bottom: 2rem;
+}
+#order-submit {
+  width: 12rem;
+  padding: 0.5rem 0;
+  background-color: red;
+  color: var(--primary-color);
+  display: grid;
+  place-items: center;
+  margin: 2rem auto;
+  border-radius: 50em;
+}
+#order-submit:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+/* ===================== media ==================== */
+@media (max-width: 1200px) {
+}
+@media (max-width: 850px) {
+}
+@media (max-width: 750px) {
+  .bg-wood-sec > div > div {
+    width: 95vw !important;
+    padding: 2rem 0;
+  }
+  .bg-wood-sec > div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

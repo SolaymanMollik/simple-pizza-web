@@ -1,0 +1,28 @@
+.self-pure {
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/bg-glass.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.self-pure > div {
+  width: 65%;
+  max-width: 2000px;
+  padding: 7rem 0;
+  margin: 0 auto;
+}
+.self-pure > div > p {
+  padding: 1rem 0;
+}
+#explore-btn {
+  background-color: red;
+  padding: 0.5rem 1rem;
+  border-radius: 50em;
+  margin: 1rem 0;
+}
+#explore-btn:hover {
+  background-color: black;
+  transition: 0.7s;
+}
